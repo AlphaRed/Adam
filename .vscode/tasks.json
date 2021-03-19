@@ -5,7 +5,7 @@
             "label": "build adam",
             "type": "shell",
             "command": "gcc",
-            "args": ["-g", "-o", "adam", "adam.c", "glad.c", "shaders.c", "system.c",
+            "args": ["-g", "-o", "bin\\adam.exe", "adam.c", "glad.c", "shaders.c", "system.c",
                 "-IC:/SDL_Libs/SDL2-devel-2.0.4-mingw/SDL2-2.0.4/i686-w64-mingw32/include/SDL2",
                 "-IC:/SDL_Libs/glad/include",
                 "-IC:/SDL_Libs/SDL2-devel-2.0.4-mingw/SDL2_image-2.0.1/i686-w64-mingw32/include/SDL2",
